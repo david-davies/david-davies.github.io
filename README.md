@@ -1,2 +1,2 @@
-# David Davies | Home
+# Home
 todo
