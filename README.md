@@ -9,8 +9,6 @@ I recently graduated from Imperial College London with a MEng in Mathematics and
 
 My research interests include λ-calculi, type theory, functional programming languages, dependent types, theorem proving and classical logic.
 
-I'm from [REDACTED], and went to school at [REDACTED]. In my spare time I enjoy [REDACTED].
-
 ### CV
 My CV can be found [here](https://david-davies.github.io/assets/cv.pdf).
 
