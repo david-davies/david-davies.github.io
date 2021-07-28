@@ -1,6 +1,8 @@
 ---
-layout: post
+layout: page
 title: Candid
+use_math: true
+permalink: /candid/
 ---
 
 # Candid: A Classical Theorem Prover
@@ -17,6 +19,8 @@ A context can be thought of as the stack when evaluating the term. For those int
 In our case, the context of $m$ in a term $A:=p_1 p_2 m q_1 q_2$ is essentially the surrounding terms; $\mathcal{C}:=p_1 p_2 \bullet q_1 q_2$. $\bullet$ represents the 'hole' in the context, which is waiting to have a term inserted into it. To regain the original term $A$, we can insert $m$ into the context $\mathcal{C}$, done with notation $\mathcal{C}\{m\}$.
 
 Formally, we can define contexts by:
+
+<div>
 $$\mathcal{C} ::= \bullet \mid \mathcal{C}\ n 
 \mid m\ \mathcal{C} 
 \mid c_i\ \vec{m}\ \mathcal{C}\ \vec{n}
@@ -24,6 +28,8 @@ $$\mathcal{C} ::= \bullet \mid \mathcal{C}\ n
 \mid \textsf{case}\ \mathcal{C}\ \textsf{of } \overrightarrow{\textsf{alts}}
 \mid \textsf{elim}\ \mathcal{C}\ \textsf{of } \overrightarrow{\textsf{alts}}
 \mid \textsf{build}\ (\vec{m}\mid\mathcal{C}\mid\vec{n})$$
+</div>
+
 Here, $c_i$ represents a data constructor, and $p_i$ a codata/record projection. $\vec{m}=m_1\ m_2 \cdots m_k$ is a vector of 0 or more terms.
 
 We can then succinctly write the way a `\\α` term evaluates:
