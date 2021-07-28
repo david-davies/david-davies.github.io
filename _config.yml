@@ -19,8 +19,13 @@ github_username:  david-davies
 
 markdown: kramdown
 
+minima:
+  skin: dark
+
 # Build settings
 theme: minima
+
+
 plugins:
   - jekyll-feed
 
