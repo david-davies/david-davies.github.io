@@ -9,8 +9,17 @@ I recently graduated from Imperial College London with a MEng in Mathematics and
 
 My research interests include λ-calculi, type theory, functional programming languages, dependent types, theorem proving and classical logic.
 
-### CV
+## CV
 My CV can be found [here](https://david-davies.github.io/assets/cv.pdf).
+
+## Stuff I've Done
+
+### Candid: A classical theorem prover
+[Candid](https://github.com/david-davies/prover) is a functional programming language with dependent types and control operators (think call/cc from Scheme). By making certain value-like restrictions for dependent typings, it also doubles up us a theorem prover for classical (first order) logic. 
+
+
+
+
 
 ### Master's Thesis
 - > [Theorem Proving in Classical Logic](https://david-davies.github.io/assets/masters.pdf).
