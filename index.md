@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-Starting this October (2021) I will be a PhD Student at Imperial College London in Computer Science. I recently graduated from Imperial with a MEng in Mathematics and Computer Science.
+I'm beginning a PhD in Computer Science at Imperial College London this October. I recently graduated from Imperial with a MEng in Mathematics and Computer Science.
 
 My research interests include λ-calculi, type theory, functional programming, theorem proving and classical logic.
 
