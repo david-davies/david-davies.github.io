@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-I am a PhD in Computer Science at Imperial College London. 
+I am a PhD student in Computer Science at Imperial College London. 
 I previously graduated from Imperial with a MEng in Mathematics and Computer Science.
 
 My research interests include λ-calculi, type theory, functional programming, theorem proving and classical logic.
